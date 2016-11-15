@@ -1,17 +1,17 @@
-<<<<<<< HEAD
+
  .navbar-inverse {
   
 }
 body{ 
+ /* background-image: linear-gradient(130deg, #196dc7, #56918e 33%, #56918e 33%, #6fa076 47%, #cfd81e 98%, #d2da1b);
+  border: solid 1px #979797;*/
 
-
-  background: url(images/bg.jpg) no-repeat center center fixed; 
+ background: url(images/bg.png) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
 .caption{
   
   font-family: Helvetica;
@@ -20,9 +20,34 @@ body{
   font-style: normal;
   font-stretch: normal;
   letter-spacing: -1.1px;
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
+.title{
+  font-family: Helvetica;
+  font-size: 72px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -1.7px;
+  text-align: center;
+  color: #ffffff;
+}
+.round{
+  border: 2px solid #009ff3;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.waves-effect {
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    
+         border-bottom: 1px solid rgba(158, 158, 158, 0.05);
+}
+
 .search {
   border-radius: 18px;
   border-color: #ffffff;
@@ -30,7 +55,7 @@ body{
 }
 
 .spaces{
-  	margin-top: 200px;
+  	margin-top: 150px;
 }
 .spacesup{
 	padding-top: 20px;
@@ -46,53 +71,10 @@ body{
 }
 .navbar-brand{
   font-size: 300%;
-=======
  .navbar-inverse {
   
 }
-body{ 
 
 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.caption{
-  
-  font-family: Helvetica;
-  font-size: 45px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: -1.1px;
-  text-align: left;
-  color: #ffffff;
-}
-.search {
-  border-radius: 18px;
-  border-color: #ffffff;
-  border-spacing: 3px;
-}
 
-.spaces{
-  	margin-top: 200px;
-}
-.spacesup{
-	padding-top: 20px;
-}
-#content{
-	text-align: center;
-}
-#navigat{
-  color: #ffffff;
-}
-#navigat:hover{
-  background-color: #808080;
-}
-.navbar-brand{
-  font-size: 300%;
->>>>>>> 7f4fce7b37187f55f366815cc5dd536542c1d7b4
-}
