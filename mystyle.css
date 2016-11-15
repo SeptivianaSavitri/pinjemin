@@ -1,0 +1,48 @@
+ .navbar-inverse {
+  
+}
+body{ 
+
+
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.caption{
+  
+  font-family: Helvetica;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -1.1px;
+  text-align: left;
+  color: #ffffff;
+}
+.search {
+  border-radius: 18px;
+  border-color: #ffffff;
+  border-spacing: 3px;
+}
+
+.spaces{
+  	margin-top: 200px;
+}
+.spacesup{
+	padding-top: 20px;
+}
+#content{
+	text-align: center;
+}
+#navigat{
+  color: #ffffff;
+}
+#navigat:hover{
+  background-color: #808080;
+}
+.navbar-brand{
+  font-size: 300%;
+}
